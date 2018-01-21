@@ -23,18 +23,20 @@ USB Webcam
 
 Raspbian includes OpenCV precompiled binaries, which as of the most recent release are only moderately out of date (OpenCV 2.4.9).  At a RPi command line enter the following:
 
-dpkg -l | less
+$ dpkg -l | less
 
 This will list all installed packages.  Navigate to the opencv libs and you will see the version of the OpenCV libraries included with the current Raspbian build is 2.4.9, which was released in April of 2014.  If you would like to use these pre-compiled binaries, proceed as follows at the RPi command line :
 
-sudo apt-get update
-sudo apt-get upgrade
+$ sudo apt-get update
 
-sudo apt-get install libopencv-dev python-opencv
+$ sudo apt-get upgrade
+
+$ sudo apt-get install libopencv-dev python-opencv
 
 # verify the OpenCV install
 
-python
+$ python
+
 >>> import cv2
 
 >>> cv2.__version__  
