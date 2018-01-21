@@ -39,7 +39,7 @@ python
 
 >>> cv2.__version__  
 
-# will say "2.4.9" if pre-compiled binary installation was successful
+## will say "2.4.9" if pre-compiled binary installation was successful
 
-# Now you can clone or download my project and run 'smile_detection.py' see smile and face detection on your webcam
-# make sure you are running this project in 'python 2 (IDLE)' on your raspbian jessie becouse its version "2.4.9"
+## Now you can clone or download my project and run 'smile_detection.py' see smile and face detection on your webcam
+## make sure you are running this project in 'python 2 (IDLE)' on your raspbian jessie becouse its version "2.4.9"
