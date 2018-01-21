@@ -36,6 +36,7 @@ sudo apt-get install libopencv-dev python-opencv
 
 python
 >>> import cv2
+
 >>> cv2.__version__  
 
 # will say "2.4.9" if pre-compiled binary installation was successful
