@@ -45,3 +45,9 @@ $ python
 
 ## Now you can clone or download my project and run 'smile_detection.py' see smile and face detection on your webcam
 ## make sure you are running this project in 'python 2 (IDLE)' on your raspbian jessie becouse its version "2.4.9"
+
+
+To Run any appliction on Auto start on boot of raspberry Pi 
+Just Open file:
+$ sudo nano /etc/profile
+and at the end add you command line than save and exit and restart your pi
